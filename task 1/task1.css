@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#845104;
+}
+.card{
+     width: 450px;
+     border-radius:25px;  
+     background-color:#1C2024;
+     box-shadow: 24px 12px 24px rgba(0, 0, 0, 8);
+}
+.title{
+    color:#D4AF37;
+    font-size: 40px;
+    font-weight: bold;
+}
+.text{
+    color:#E0E6ED;
+    font-size:25px;
+}
+.btn{
+    color:#C5A059;
+    background-color:#1C2024;
+    font-weight:bold;
+    padding: 0px 46px;
+
+}
