@@ -2,15 +2,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#845104;
+    background-color:#070706;
 }
 .card{
+    border-color:#C5A059;
+    border-width:6px;
+    border-style:outset;
      width: 450px;
-     border-radius:25px;  
+     border-radius:12px;  
      background-color:#1C2024;
-     box-shadow: 24px 12px 24px rgba(0, 0, 0, 8);
+     box-shadow: 2px 0px  #845b0d7e;
+     padding:9px;
 }
 .title{
+    font:bolder;
     color:#D4AF37;
     font-size: 40px;
     font-weight: bold;
@@ -21,8 +26,10 @@ body{
 }
 .btn{
     color:#C5A059;
-    background-color:#1C2024;
+    background-color:#1a2025db;
     font-weight:bold;
     padding: 0px 46px;
-
+}
+a:hover{
+    color:rgba(215, 62, 138, 0.523);
 }
